@@ -8,7 +8,8 @@ cache:
 deploy:
   provider: heroku
   api_key:
-    secure: {PUT_YOUR_OWN_API_KEY_HERE}
-  app: obscure-gorge-82684
+    secure: PrCwp7ESjIZ6d0wowR92dNbz0GVO1gZ/yGbHjdNYaZ9fq7qSEMhh/8ma2cx9YG6nRXK/l2kpDLTdHG2EFYt2B3U83vkI0WMq2jvwS08U7ymb9JSqubb02Ilcpc8l1Hg49eWL07dz7p1KkftneTyB1DADa4EjteifYF4UK9q4lENN7kfUbUqkcxN1zlDSDp/avmT2AZgA1vExaWNx3hh4/n7ado0Ewdtiqv3vguES+LT8eYbIUCMQyIIREL2e5Fp1Hjm78oBYfLmlQ1jey+0o3EQBfprHCiFyDl5ceS1tyQ8mBXp3LYxGVqx+I50Va0wi772h7qVWLy4p23NhtlI9Da7K95F/bdv3bxNdCDI14b+PXCJetBD20/gvPrK5KKglWvk16ZtEkcj6wtPG9HpEEyYoALUoz7FbyXT2pZHh3GMtLPoq5GMQlbLD2xkSGdhjABRHLxbHUtzt5lTQAsUww6krCcISWeSzdDLT32zeZ+T35ibhhFnKMSxZQ39ihsHc4B1341t1RZbwRT2/wZGYtR5uY6rpE7Teoj+Up8dmDeGEryCwZ4IkGjQ139E1FaChfenVd8+WE4jB7GAqEmVWrTqDtvVs+AEIaQIvKW6puxSD3rE/0+8ucdooBKapH6caX7Y8Raxok8pKvzYBX1GkDTEwlvYTMHsQM/2oDdp+5t8=
+  app: unittest-travis-heroku
   on:
     repo: caymanh/unittest-travis-heroku
+  skip_cleanup: 'true'
